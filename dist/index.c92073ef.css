@@ -1,0 +1,37 @@
+@import "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap";
+:root {
+  --bulma-scheme-main: hsl(var(--bulma-scheme-h) var(--bulma-scheme-s) var(--bulma-scheme-main-l));
+}
+
+[data-theme="my-theme"], .theme-my-theme {
+  --bulma-scheme-main-l: 7%;
+  --bulma-scheme-main: hsl(var(--bulma-scheme-h) var(--bulma-scheme-s) var(--bulma-scheme-main-l));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2e3440;
+  margin: 0;
+  padding: 0;
+  font-family: Rubik, sans-serif;
+}
+
+#tabs {
+  background-color: #3b4252;
+}
+
+.ui-tabs-nav, .box {
+  background-color: #2e3440;
+}
+
+#table {
+  place-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+}
+/*# sourceMappingURL=index.c92073ef.css.map */
